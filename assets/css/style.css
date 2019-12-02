@@ -1,0 +1,68 @@
+.container{ 
+    display: grid;age: url(../img/logo.jpg);
+    width: 100%;
+    height: 486px;
+    grid-column: 1/4;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-column-gap: 10px;
+    width: 1000px;
+    margin: -400px auto auto auto;
+    font-family: 'aharoni', Courier,monospace;
+    background-color: white;
+}
+.header{
+    background-image: url(../img/logo.jpg);
+    width: 100%;
+    height: 486px;
+    background-position: center;
+
+}
+.header h1{
+    margin-top: 400px;
+    margin-left: 30px;
+    color: white;
+
+}
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    background-color: gray;
+}
+.menu{
+    overflow: hidden;
+    grid-column: 1/4;
+    background-color: gray;
+}
+.menu a {
+    align-items: center;
+    float: left;
+    display: block;
+    color: black;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    grid-column: 1/4;
+    padding: 0px 96px 0px 97px;
+
+}
+.identacion{ overflow: hidden;
+    padding: 0px 10px 0px 10%;
+}
+.sec{
+    grid-template-columns: repeat(4 ,1fr);
+}
+.clasesita {
+    background-color: white;
+    grid-column: 1/4;
+    padding: 0px 20px 0px 20px;
+}
+
+H4{
+    color: gray;
+}
+
+.boton{
+    background-color: darkblue;
+}
+.boton{
+    text-decoration:none ;
+}
