@@ -1,5 +1,5 @@
 .container{ 
-    display: grid;age: url(../img/logo.jpg);
+    display: grid;
     width: 100%;
     height: 486px;
     grid-column: 1/4;
@@ -27,11 +27,7 @@
     background-image: url(../img/fondo.jpg);
     background-color: gray;
 }
-.menu{
-    overflow: hidden;
-    grid-column: 1/4;
-    background-color: gray;
-}
+
 .menu a {
     align-items: center;
     float: left;
